@@ -16,8 +16,12 @@
 
 /* Position du logo*/
 #logo img {
-  margin-left: 45px;
   margin-top: 20px;
+}
+
+/* mise en retrait du body*/
+body  {
+  margin-left: 45px;
 }
 
 /* mise en flex */
@@ -51,3 +55,20 @@ section input {}
 .rechercher {}
 
 .fas.fa-map-marker-alt {}
+
+/*Section filtres*/
+
+.groupe_filtre {
+  display: flex;
+}
+
+.filtre {
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+/*infobulle*/
+
+.info span {
+  margin-left: 20px;
+}
