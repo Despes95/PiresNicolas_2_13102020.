@@ -14,11 +14,13 @@
 
 /*Header*/
 
+/* Position du logo*/
 #logo img {
   margin-left: 45px;
   margin-top: 20px;
 }
 
+/* mise en flex */
 .top ul {
   display: flex;
   list-style-type: none;
@@ -26,15 +28,26 @@
   align-items: flex-start;
 }
 
+/*position liste*/
 .top li {
   margin-top: -40px;
   margin-right: 40px;
 }
 
+/* Emplacement des liens en haut a droite*/
 .top a {
   text-decoration: none;
+  color: #0065fc;
+  font-weight: bold;
 }
 
+/*option des liens en haut a droite*/
 a:hover {
   text-decoration-line: overline;
 }
+
+section input {}
+
+.rechercher {}
+
+.fas.fa-map-marker-alt {}
