@@ -53,6 +53,56 @@ a:hover {
 
 /*barre de recherche en dessous header*/
 
+#searchbar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+#searchbar,
+div {
+  display: inline-block;
+  height: 50px;
+}
+
+.rechercher {
+  background-color: #0065fc;
+  width: 100px;
+  color: #ffffff;
+  border-radius: 0px 15px 15px 0px;
+  margin-left: -5px;
+  height: 40px;
+  border: 1px solid #0065fc;
+  font-weight: bold;
+}
+
+#marqueur {
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  height: 30px;
+  width: 40px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.fas.fa-map-marker-alt {
+  margin-left: 15px;
+  
+}
+
+input {
+  border: 1px solid #f2f2f2;
+  height: 40px;
+  width: 250px;
+  margin-left: -5px;
+}
+
+input::placeholder {
+  font-weight: bold;
+  padding-left: 30px;
+  color: black;
+}
+
 /*Section filtres*/
 
 .groupe_filtre {
@@ -77,6 +127,7 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
 }
+
 .block_hebergement {
   /*
   margin: 40px 30px 0px 0px;
@@ -86,7 +137,7 @@ a:hover {
   height: auto;
   background-color: #f2f2f2;
   border-radius: 15px;
-  margin-right: 30px;  
+  margin-right: 30px;
 }
 
 .block_hebergement h2 {
@@ -110,7 +161,7 @@ a:hover {
   overflow: hidden;
   border-radius: 20px 20px 0px 0px;
   margin: auto;
-  }
+}
 
 .cannebiere p {
   font-size: 16px;
