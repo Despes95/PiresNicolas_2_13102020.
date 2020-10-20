@@ -183,12 +183,28 @@ input::placeholder {
 
 /*infobulle*/
 
-.info  {
-  padding: 2px;
-  border: 2px solid #f2f2f2;
-  width: 1%;
-  height: 40%;
+.groupe_info {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.infos  {
+  margin-top: 12px;
+  border: 2px solid #deebff;
+  width: 20px;
+  height: 20px;
   border-radius: 50px;
+}
+
+.infos i {
+  padding-left: 7px;
+  color: #0065fc;
+  
+}
+
+.groupe_info span {
+  padding-top: 15px;
+  text-indent: 1em;
 }
 
 /*Cadre herbergement*/
