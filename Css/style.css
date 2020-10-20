@@ -74,7 +74,9 @@ div {
   margin-left: -5px;
   height: 40px;
   border: 1px solid #0065fc;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none;
 }
 
 #marqueur {
@@ -87,11 +89,11 @@ div {
 
 .fas.fa-map-marker-alt {
   margin-left: 15px;
-  
+
 }
 
 input {
-  border: 1px solid #f2f2f2;
+  border: 1px solid #f3e7e7;
   height: 40px;
   width: 250px;
   margin-left: -5px;
@@ -101,23 +103,92 @@ input::placeholder {
   font-weight: bold;
   padding-left: 30px;
   color: black;
+  font-size: 18px;
 }
 
 /*Section filtres*/
 
+
 .groupe_filtre {
+  margin-top: 20px;
   display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: -100px;
+  margin-bottom: 0px;
 }
 
-.filtre {
-  margin-top: 25px;
-  margin-left: 40px;
+.groupe_filtre p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #f3e7e7;
+  border-radius: 30px;
+  padding-right: 20px;
+  text-indent: 1em;
 }
+
+
+.money {
+  color: #0065fc;
+  background-color: #deebff;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid #deebff;
+  outline: none;
+  font-size: 18px;
+}
+
+.famille {
+  color: #0065fc;
+  background-color: #deebff;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid #deebff;
+  outline: none;
+  font-size: 18px;
+}
+
+.love {
+  color: #0065fc;
+  background-color: #deebff;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid #deebff;
+  outline: none;
+  font-size: 18px;
+}
+
+.dogs {
+  color: #0065fc;
+  background-color: #deebff;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid #deebff;
+  outline: none;
+  font-size: 18px;
+}
+
+.groupe_filtre h2 {
+  margin-top: 25px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+
 
 /*infobulle*/
 
-.info span {
-  margin-left: 20px;
+.info  {
+  padding: 2px;
+  border: 2px solid #f2f2f2;
+  width: 1%;
+  height: 40%;
+  border-radius: 50px;
 }
 
 /*Cadre herbergement*/
