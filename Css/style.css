@@ -20,9 +20,10 @@ body {
 }
 
 /* mise en retrait du body*/
-body {
-  margin-left: 65px;
+#bloc_page {
+  margin: 0px 65px 0px 65px;
 }
+
 
 /* mise en flex */
 .top ul {
@@ -30,13 +31,12 @@ body {
   list-style-type: none;
   justify-content: flex-end;
   align-items: flex-start;
-  margin-right: 30px;
 }
 
 /*position liste*/
 .top li {
   margin-top: -40px;
-  margin-right: 40px;
+  margin-left: 40px;
 }
 
 /* Emplacement des liens en haut a droite*/
@@ -117,9 +117,10 @@ input::placeholder {
   width: 80%;
   margin-left: -100px;
   margin-bottom: 0px;
+  cursor: pointer;
 }
 
-.groupe_filtre p {
+.groupe_filtre a {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -127,10 +128,34 @@ input::placeholder {
   border-radius: 30px;
   padding-right: 20px;
   text-indent: 1em;
+  text-decoration: none;
+  
+  
+}
+
+.groupe_filtre a:hover {
+  background-color: #f2f2f2;
+  color: #0065fc;
+}
+
+.money:hover {
+  font-size: 25px;
+}
+
+.famille:hover {
+  font-size: 25px;
+}
+
+.love:hover {
+  font-size: 25px;
+}
+
+.dogs:hover {
+  font-size: 25px;
 }
 
 
-.money {
+.money, .famille, .love, .dogs {
   color: #0065fc;
   background-color: #deebff;
   width: 46px;
@@ -139,8 +164,9 @@ input::placeholder {
   border: 1px solid #deebff;
   outline: none;
   font-size: 18px;
+  cursor: pointer;
 }
-
+/*
 .famille {
   color: #0065fc;
   background-color: #deebff;
@@ -150,6 +176,7 @@ input::placeholder {
   border: 1px solid #deebff;
   outline: none;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .love {
@@ -161,6 +188,7 @@ input::placeholder {
   border: 1px solid #deebff;
   outline: none;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .dogs {
@@ -172,8 +200,9 @@ input::placeholder {
   border: 1px solid #deebff;
   outline: none;
   font-size: 18px;
+  cursor: pointer;
 }
-
+*/
 .groupe_filtre h2 {
   margin-top: 25px;
   font-weight: bold;
@@ -263,7 +292,7 @@ input::placeholder {
   margin-left: 55px;
   margin-bottom: 40px;
   margin-right: 15px;
-  box-shadow: 2px 2px 2px 2px #000005;
+  box-shadow: 2px 2px 2px 2px rgb(236 229 229);
 }
 
 .cannebiere img {
@@ -287,7 +316,7 @@ input::placeholder {
 
 
 .affichez h3 {
-  margin-top: -8px;
+  margin-top: 8px;
   text-decoration: none;
   color: #000103;
   margin-left: 60px;
@@ -303,7 +332,7 @@ input::placeholder {
   background-color: #f2f2f2;
   border-radius: 15px;
   height: auto;
-  margin-right: 60px;
+  
 }
 
 .fa-chart-line:before {
@@ -323,7 +352,6 @@ input::placeholder {
 .bandedroite i {
   padding-top: 30px;
   padding-right: 80px;
-
 }
 
 .cadre {
@@ -333,19 +361,14 @@ input::placeholder {
   margin-bottom: 50px;
   background-color: #ffffff;
   border-radius: 20px;
-  height: 142px;
+  height: 152px;
   margin-top: 35px;
-  box-shadow: 2px 2px 2px 2px #000005;
-}
-
-.cadre a {
-  width: 200px;
-  height: 135px;
+  box-shadow: 2px 2px 2px 2px rgb(236 229 229);
 }
 
 .cadre img {
   width: 200px;
-  height: 135px;
+  height: 145px;
   border-radius: 20px 0px 0px 20px;
   padding: 3px;
 }
@@ -353,6 +376,11 @@ input::placeholder {
 .test {
   padding-left: 30px;
   height: auto;
+}
+
+.test i {
+  padding-top: 15px;
+  font-size: 14px;
 }
 
 /*Activités à Marseille*/
@@ -365,17 +393,16 @@ input::placeholder {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: auto;
-  margin-right: 50px;
+  height:auto;
+  
 }
 
 #activites b {
   margin-left: 20px;
-  margin-bottom: 50px;
 }
 
 #activites img {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .activites_marseille {
@@ -383,15 +410,14 @@ input::placeholder {
   flex-direction: row;
   justify-content: space-between;
   height: auto;
-  margin-right: -20px;
 }
 
 .cadre1 {
-  width: 50%;
+  width: 80%;
   border-radius: 15px;
-  box-shadow: 2px 2px 2px 2px #000005;
+  box-shadow: 2px 2px 2px 2px rgb(236 229 229);
   height: 70%;
-  margin-right: 30px;
+  margin-right: 70px;
 }
 
 .cadre1 img {
@@ -412,8 +438,9 @@ input::placeholder {
 .cadre2 {
   margin-right: 25px;
   border-radius: 15px;
-  box-shadow: 2px 2px 2px 2px #000005;
+  box-shadow: 2px 2px 2px 2px rgb(236 229 229);
   height: 50%;
+  width: 125%;
 }
 
 .cadre2 img {
@@ -425,8 +452,25 @@ input::placeholder {
 .cadre3 {
   margin-right: 30px;
   border-radius: 15px;
-  box-shadow: 2px 2px 2px 2px #000005;
+  box-shadow: 2px 2px 2px 2px rgb(236 229 229);
   height: 40%;
+  width: 125%;
+}
+
+.cadre6 {
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgb(236 229 229);
+  height: 70%;
+  margin-left: 130px;
+  margin-right: 70px;
+}
+
+.cadre6 img {
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
 }
 
 .cadre3 img {
@@ -435,9 +479,10 @@ input::placeholder {
   width: 100%
 }
 
+
 .cadre4 {
   border-radius: 15px;
-  box-shadow: 2px 2px 2px 2px #000005;
+  box-shadow: 2px 2px 2px 2px rgb(236 229 229);
   height: 45%;
 }
 
@@ -449,7 +494,7 @@ input::placeholder {
 
 .cadre5 {
   border-radius: 15px;
-  box-shadow: 2px 2px 2px 2px #000005;
+  box-shadow: 2px 2px 2px 2px rgb(236 229 229);
   height: 45%;
 }
 
@@ -458,3 +503,32 @@ input::placeholder {
   height: 80%;
   width: 100%
 }
+
+/*footer*/
+
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 200px;
+  width: 100%;
+  margin-top: 90px;
+  
+}
+
+footer div{
+  margin-right: 300px;
+}
+
+footer h3 {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+footer li{
+  list-style-type: none;
+  margin-top: 15px;
+} 
+  
+  
