@@ -324,7 +324,7 @@ input::placeholder {
   margin-bottom: 30px;
 }
 
-/* Les Plus Populaires refaire le cadre pour centrer les colonnes*/
+/* Les Plus Populaires*/
 
 .populaire {
   width: 35%;
@@ -371,6 +371,7 @@ input::placeholder {
   height: 145px;
   border-radius: 20px 0px 0px 20px;
   padding: 3px;
+  object-fit: cover;
 }
 
 .test {
@@ -447,6 +448,7 @@ input::placeholder {
   border-radius: 15px 15px 0px 0px;
   height: 80%;
   width: 100%;
+  object-fit: none;
 }
 
 .cadre3 {
@@ -501,7 +503,8 @@ input::placeholder {
 .cadre5 img {
   border-radius: 15px 15px 0px 0px;
   height: 80%;
-  width: 100%
+  width: 100%;
+  object-fit: none;
 }
 
 /*footer*/
