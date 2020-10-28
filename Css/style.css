@@ -260,16 +260,17 @@ h3 {
 
 .hebergement {
   border-radius: 15px 15px 15px 15px;
-  width: 62%;
+  width: 1100px;
   height: auto;
   background-color: #f2f2f2;
   border-radius: 15px;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 
 .hebergement h3 {
   margin-left: 60px;
   margin-top: 30px;
+  font-size: 18px;
 }
 
 .tarif {
@@ -342,39 +343,43 @@ h3 {
 
 /* Les Plus Populaires*/
 .populaire {
-  width: 30%;
+  width: 620px;
   background-color: #f2f2f2;
   border-radius: 15px;
-  margin-left: 45px;
+  margin-left: 0px;
 }
 
 .fa-chart-line:before {
   font-size: 24px;
-  margin-right: 70px;
+  margin-right: 80px;
+  
 }
 
-.bandedroite {
+.lespluspopu {
   display: flex;
   justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 70px;
+  
 }
 
-.bandedroite h3 {
-  padding-left: 75px;
+.lespluspopu h3 {
   margin-top: 30px;
+  font-size: 18px;
 }
 
-.bandedroite i {
+.lespluspopu i {
   padding-top: 30px;
   color: black;
-  background-color: #f2f2f2;
-  margin-left: 28%;
   margin-top: 25px;
   border-radius: 0;
   padding: 0;
+  width: 20px;
+  
   }
 
 .cadre {
-  width: auto;
+  width: 505px;
   height: 165px;
   background-color: white;
   border-radius: 20px 20px 20px 20px;
@@ -389,7 +394,7 @@ h3 {
 }
 
 .testu1 {
-  width: 180px;
+  width: 220px;
   height: 165px;
   overflow: hidden;
   margin: 5px 10px 5px 5px;
@@ -398,7 +403,7 @@ h3 {
 }
 
 .testu2 {
-  width: 180px;
+  width: 220px;
   height: 165px;
   overflow: hidden;
   margin: 5px 10px 5px 5px;
@@ -407,7 +412,7 @@ h3 {
 }
 
 .testu3 {
-  width: 180px;
+  width: 220px;
   height: 165px;
   overflow: hidden;
   margin: 5px 10px 5px 5px;
@@ -420,7 +425,7 @@ h3 {
   margin-top: 0px;
   font-size: 16px;
   max-width: 160px;
-  margin-left: -40px;
+  margin-left: 10px;
 }
 
 .test h4 {
@@ -442,12 +447,12 @@ h3 {
 
 /*Activités à Marseille*/
 #marseille {
-  margin-left: -90px;
+  margin-left: -115px;
 }
 
 #marseille h2 {
   margin-top: 30px;
-  margin-left: 90px;
+  margin-left: 120px;
 }
 
 .texte {
@@ -470,6 +475,7 @@ h3 {
   border-radius: 15px 15px 15px 15px;
   object-fit: cover;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+  margin-left: 70px;
   
 }
 
@@ -498,6 +504,7 @@ h3 {
   object-fit: cover;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
   margin-left: -35px;
+
 }
 
 .activitefortcadreimg {

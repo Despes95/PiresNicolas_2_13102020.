@@ -1,0 +1,331 @@
+/*ipad pro*/
+@media screen and (max-width: 1024px) {
+    body,
+    main,
+    section {
+        margin: 0px 0px 0px 15px;
+    }
+
+
+}
+
+
+/*ipad*/
+@media screen and (max-width: 768px) {
+
+    body,
+    main,
+    section {
+        margin: 0px 0px 0px 10px;
+    }
+
+    .populaire {
+        margin-left: 0px;
+        margin-bottom: 30px;
+        width: 88%;
+    }
+    .cadre {
+        margin-left: 75px;
+    }
+
+    .hebergement {
+        width: 88%;
+        margin-left: 25px;
+    }
+
+    .contenu {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #marseille {
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+
+    #activitefort,
+    #droite {
+        margin: 0px;
+    }
+
+    .activiteg {
+        width: 295px;
+        height: 175px;
+        object-fit: cover;
+        margin-left: 0px;
+    }
+
+    #cadre1 a {
+        width: 295px;
+        height: 175px;
+
+    }
+
+    .activitegimg {
+        width: 295px;
+        height: 115px;
+        object-fit: cover;
+    }
+
+    .activitefrioul {
+        width: 295px;
+        height: 175px;
+        object-fit: cover;
+        margin-right: 0px;
+    }
+
+    .activitefrioulimg {
+        width: 295px;
+        height: 115px;
+        object-fit: cover;
+    }
+
+    .activitefortcadre {
+        width: 295px;
+        height: 175px;
+        object-fit: cover;
+    }
+
+    .activitefortcadreimg {
+        width: 295px;
+        height: 115px;
+        object-fit: cover;
+    }
+
+}
+
+
+
+
+
+/*portable*/
+@media screen and (max-width: 375px) {
+
+    body,
+    main,
+    section {
+        margin: 0px 0px 0px 5px;
+    }
+
+    /*Haut de page*/
+    #logo img {
+        margin-left: -60px
+    }
+
+    .ancre {
+        margin-left: -150px;
+        margin-right: 0px;
+        padding: 0px;
+        width: 100%;
+        display: flex;
+    }
+
+    .ancre a {
+        margin-left: 0px;
+    }
+
+    .top {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #act {
+        width: 70px;
+        padding-left: 75px;
+        padding-right: 60px;
+        border-width: 0px 0px 3px 0px;
+        border-color: #f2f2f2;
+        border-style: solid;
+    }
+
+    #act:hover {
+        border-color: #0065fc;
+    }
+
+    #heb {
+        width: 80px;
+        margin-left: 0px;
+        padding-left: 60px;
+        padding-right: 40px;
+        border-width: 0px 0px 3px 0px;
+        border-style: solid;
+        border-color: #f2f2f2;
+    }
+
+    #heb:hover {
+        border-color: #0065fc;
+    }
+
+    #mob {
+        margin-top: -10px;
+        margin-left: 70%;
+    }
+
+
+
+    .bandeau {
+        padding: 0px 7px;
+    }
+
+    .rechercher {
+        border-radius: 15%;
+        margin-left: -5px;
+    }
+
+
+    .fas.fa-search {
+        color: white;
+        margin-top: 0px;
+        margin-left: -5px;
+        background-color: #0065fc;
+        visibility: visible;
+    }
+
+    #btnsearch {
+        display: none;
+    }
+
+    #loupe {
+        display: flex;
+    }
+
+    .groupe_filtre {
+        padding-left: 0px;
+    }
+
+    .groupe_filtre h3 {
+        margin-right: 305px;
+    }
+
+    .groupe_filtre div {
+        margin-right: 30%;
+        margin-right: 10px;
+
+
+    }
+
+    .filtre {
+        width: auto;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+
+    }
+
+    .filtre h3 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    /*haut de page*/
+
+    /*Les plus populaires*/
+    .lespluspopu {
+        margin-left: 15px;
+        margin-right: 25px;
+    }
+
+    .populaire {
+        margin-left: -15px;
+        width: 370px;
+    }
+
+    .cadre {
+        margin-left: 15px;
+        width: 345px;
+    }
+
+
+
+    .testu1,
+    .testu2,
+    .testu3,
+    img {
+        width: 152px;
+    }
+
+    /*Les plus populaires*/
+
+    /*hebergement a marseille*/
+    .hebergement {
+        margin-left: -15px;
+        margin-right: 0px;
+        width: auto;
+    }
+
+    .cannebiere {
+        margin-left: -5px;
+        width: 342px;
+        height: 195px;
+
+    }
+
+    .cannebiereimg {
+        width: 328px;
+        height: 120px;
+    }
+
+    /*hebergement a marseille*/
+
+    /*Activites a marseille*/
+
+    #marseille h2 {
+        margin-left: 50px;
+    }
+
+    #marseille h3 {
+        margin-top: -15px;
+    }
+
+    .activiteg {
+        margin-left: -32px;
+        height: 165px;
+        width: 340px;
+    }
+
+    .activitegimg {
+        width: 340px;
+        height: 125px;
+        margin: 5px;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .activitefortcadre {
+        margin-left: -32px;
+        width: 340px;
+        height: 165px;
+
+    }
+
+    .activitefortcadreimg {
+        width: 340px;
+        height: 125px;
+        margin: 5px;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .activitefrioul {
+        margin-left: -32px;
+        width: 340px;
+        height: 155px;
+    }
+
+    .activitefrioulimg {
+        width: 340px;
+        height: 125px;
+        margin: 5px;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    /*footer*/
+
+    .bas {
+        margin-left: -10px;
+    }
+
+    .propos {
+        margin-left: 230px;
+    }
+}
