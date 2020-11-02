@@ -1,46 +1,91 @@
-/*ipad pro*/
-@media screen and (max-width: 1024px) {
-    body,
-    main,
-    section {
-        margin: 0px 0px 0px 15px;
-    }
-
-
-}
-
-
-/*ipad*/
 @media screen and (max-width: 768px) {
 
-    body,
-    main,
-    section {
-        margin: 0px 0px 0px 10px;
+    main {
+        margin-left: 20px;
+        margin-right: 75px;
     }
+
+
+
+    /*haut de la page*/
+    .top {
+        margin-right: 115px;
+
+    }
+
+    .bandeau h1 {
+        font-size: 26px;
+    }
+
+    #marqueur {
+        margin-top: 20px;
+    }
+
+    .groupe_filtre {
+        margin-top: -30px;
+    }
+
+    .groupe_filtre h3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .filtre {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*haut de la page*/
+
+
+    /*populaire*/
+    .lespluspopu {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
 
     .populaire {
         margin-left: 0px;
         margin-bottom: 30px;
-        width: 88%;
-    }
-    .cadre {
-        margin-left: 75px;
+        width: 94%;
+
     }
 
+    #act {
+        margin-left: 20px;
+        margin-right: -30px;
+    }
+
+    .cadre {
+        margin-left: 50px;
+    }
+
+    /*populaire*/
+
+    /*hebergement*/
     .hebergement {
-        width: 88%;
-        margin-left: 25px;
+        width: 94%;
+        margin-right: 0px;
+    }
+
+    .hebergement h3 {
+        margin-left: 40px;
     }
 
     .contenu {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 15px;
     }
 
+    /*hebergement*/
+
+
+    /*hebergement*/
     #marseille {
-        margin-bottom: 50px;
-        margin-left: 0px;
+        margin-left: -50px;
+        margin-right: -45px;
     }
 
     #activitefort,
@@ -58,7 +103,6 @@
     #cadre1 a {
         width: 295px;
         height: 175px;
-
     }
 
     .activitegimg {
@@ -92,24 +136,49 @@
         object-fit: cover;
     }
 
+    /*hebergement*/
+
+    /*footer*/
+    .bas {
+        display: flex;
+        justify-content: left;
+        margin-left: 0px;
+        margin-right: 95px;
+        font-size: 14px;
+
+    }
+
+    .bas div {
+        margin-bottom: 0px;
+        margin-right: 30px;
+        margin-left: 20px;
+        /*footer*/
+    }
 }
-
-
-
 
 
 /*portable*/
 @media screen and (max-width: 375px) {
 
-    body,
-    main,
-    section {
-        margin: 0px 0px 0px 5px;
+    
+    
+    main {
+        margin-left: 7px;
+        margin-right: -10px;
+        max-width: 375px;
+        
     }
 
     /*Haut de page*/
     #logo img {
-        margin-left: -60px
+        margin-left: -40px;
+        width: 30%;
+
+    }
+
+    .top {
+        margin-right: 65px;
+        /*95px*/
     }
 
     .ancre {
@@ -124,20 +193,13 @@
         margin-left: 0px;
     }
 
-    .top {
-        margin-left: 0px;
-        margin-right: 0px;
-        display: flex;
-        justify-content: center;
-    }
-
     #act {
-        width: 70px;
-        padding-left: 75px;
-        padding-right: 60px;
+        padding-left: 50px;
+        padding-right: 55px;
         border-width: 0px 0px 3px 0px;
         border-color: #f2f2f2;
         border-style: solid;
+        margin-left: 0px;
     }
 
     #act:hover {
@@ -145,10 +207,9 @@
     }
 
     #heb {
-        width: 80px;
-        margin-left: 0px;
-        padding-left: 60px;
-        padding-right: 40px;
+
+        padding-left: 50px;
+        padding-right: 50px;
         border-width: 0px 0px 3px 0px;
         border-style: solid;
         border-color: #f2f2f2;
@@ -159,18 +220,26 @@
     }
 
     #mob {
-        margin-top: -10px;
-        margin-left: 70%;
+        margin-top: 10px;
+        margin-left: 80%;
+        font-weight: bolder;
     }
 
+    #mob:hover {
+        margin-top: -10px;
+        margin-left: 70%;
+        border-width: 0px 0px 0px 0px;
+    }
 
-
-    .bandeau {
-        padding: 0px 7px;
+    #marqueur {
+        margin-left: 10px;
+        margin-right: 50px;
+        
+        
     }
 
     .rechercher {
-        border-radius: 15%;
+        border-radius: 25%;
         margin-left: -5px;
     }
 
@@ -193,6 +262,9 @@
 
     .groupe_filtre {
         padding-left: 0px;
+        margin-right: 20px;
+
+
     }
 
     .groupe_filtre h3 {
@@ -200,9 +272,7 @@
     }
 
     .groupe_filtre div {
-        margin-right: 30%;
         margin-right: 10px;
-
 
     }
 
@@ -210,6 +280,9 @@
         width: auto;
         flex-wrap: wrap;
         margin-bottom: 20px;
+        margin-left: 10px;
+        
+
 
 
     }
@@ -218,6 +291,8 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+
+
 
     /*haut de page*/
 
@@ -233,8 +308,9 @@
     }
 
     .cadre {
-        margin-left: 15px;
+        margin-left: 13px;
         width: 345px;
+        margin-right: 0px;
     }
 
 
@@ -252,14 +328,22 @@
     .hebergement {
         margin-left: -15px;
         margin-right: 0px;
-        width: auto;
+        width: 370px;
+    }
+
+    .hebergement h3 {
+        margin-left: 20px;
+    }
+
+    .contenu {
+        margin-left: 30px;
+        margin-right: 0px;
     }
 
     .cannebiere {
-        margin-left: -5px;
+        margin-left: -15px;
         width: 342px;
         height: 195px;
-
     }
 
     .cannebiereimg {
@@ -271,8 +355,28 @@
 
     /*Activites a marseille*/
 
+    body {
+        margin-right: 0px;
+
+    }
+
     #marseille h2 {
         margin-left: 50px;
+        
+
+    }
+
+    #cadre1 {
+        margin-left: 04px;
+        margin-right: 0px;
+
+    }
+
+    #marseille {
+        width: 370px;
+        margin-left: -8px;
+        
+
     }
 
     #marseille h3 {
@@ -283,6 +387,7 @@
         margin-left: -32px;
         height: 165px;
         width: 340px;
+
     }
 
     .activitegimg {
@@ -290,12 +395,14 @@
         height: 125px;
         margin: 5px;
         border-radius: 15px 15px 0px 0px;
+
     }
 
     .activitefortcadre {
         margin-left: -32px;
         width: 340px;
         height: 165px;
+
 
     }
 
@@ -322,10 +429,32 @@
     /*footer*/
 
     .bas {
+        text-align: left;
+        justify-content: left;
         margin-left: -10px;
+        margin-right: -5px;
+
     }
 
-    .propos {
-        margin-left: 230px;
+    .bas div {
+        margin-right: 90px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
     }
+
+    footer.bas {
+        margin-top: 30px;
+    }
+
+    footer.bas h3 {
+        margin-top: 10px;
+    }
+
+    footer.bas a {
+        margin: 10px 0px 0px;
+    }
+    
+
+
 }
